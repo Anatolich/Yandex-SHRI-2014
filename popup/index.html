@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+ <title>Pop-Up</title>
+
+ <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+ <script type="text/javascript" src="http://yastatic.net/jquery/1.11.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+ <h1>Pop-Up's</h1>
+
+ <div class="popup_variants" id="popup_variant_first">
+
+  <h2>Position ориентированный вариант</h2>
+
+  <h3>Преимущества</h3>
+
+  <ul>
+
+   <li>Кроссбраузерность нативными средствами, без какой либо лишней логики, только необходимое и достаточное количество стилей;</li>
+
+   <li>Ширина и высота зависят только от контент блока;</li>
+
+  </ul>
+
+  <h3>Недостатки</h3>
+
+  <ul>
+
+   <li>Возможная несовместимость с некоторыми видами слоев (проверять!);</li>
+
+   <li>При большом количестве контента, придется добавлять overflow;</li>
+
+  </ul>
+
+  <a id="first_popup_call" title="Нажми меня" href="#">Показать Pop-Up</a>
+
+ </div>
+
+ <div class="popup_variants" id="popup_variant_second">
+
+ 	<h2>margin: &#37; auto</h2>
+
+  <h3>Преимущества</h3>
+
+  <ul>
+
+   <li>Минимум разметки и стилевых правил</li>
+
+  </ul>
+
+  <h3>Недостатки</h3>
+
+  <ul>
+
+   <li>Зависимость основного и контент блока, задаем ручками оба, причем обязательно;</li>
+
+   <li>Кроссбраузерность в IE 6-7 страдает;</li>
+
+   <li>При перерисовке, например при изменении размера окна, проблемы;</li>
+
+  </ul>
+
+  <a id="second_popup_call" title="Нажми меня" href="#">Показать Pop-Up</a>
+
+ </div>
+
+ <div class="popup_variants" id="popup_variant_third">
+
+  <h2>Абсолютный центр!</h2>
+
+  <h3>Преимущества</h3>
+
+  <ul>
+
+   <li>Адаптивность, самый что не на есть центр, даже после перерисовки;</li>
+
+  </ul>
+
+  <h3>Недостатки</h3>
+
+  <ul>
+
+   <li>Опять же зависимость от высоты и длинны;</li>
+
+  </ul>
+
+  <a id="third_popup_call" title="Нажми меня" href="#">Показать Pop-Up</a>
+
+ </div>
+
+ <div class="popup_window_first">
+
+  <span class="popup_close"></span>
+
+  <div class="popup_content">
+
+  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+  </div>
+
+ </div>
+
+ <div class="popup_window_second">
+
+  <span class="popup_close"></span>
+
+  <div class="popup_content">
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+  </div>
+
+ </div>
+
+ <div class="popup_window_third">
+
+  <span class="popup_close"></span>
+
+  <div class="popup_content">
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+  </div>
+
+ </div>
+
+</div>
+
+<script type="text/javascript" src="main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+* {margin: 0px; padding: 0px;}
+
+body {font: 14px Arial, sans-serif;}
+
+h1 {margin: 20px;}
+
+.equalizer-wrapper {margin: 0px 20px 20px 20px; float: left;}
+
+.equalizer {vertical-align: bottom; overflow: hidden; border: 1px solid #ddd;}
+
+#equalizer_small {width: 100px; height: 100px; line-height: 100px;}
+
+#equalizer_normal {width: 200px; height: 200px; line-height: 200px;}
+
+#equalizer_big {width: 300px; height: 300px; line-height: 300px;}
+
+.equalizer_cols {display: inline-block; vertical-align: bottom; line-height: 0px; font-size: 0px; border-top: 2px solid red; background: pink;}

@@ -1,0 +1,45 @@
+* {margin: 0px; padding: 0px;}
+
+html, body {height: 100%;}
+
+body {font: 14px Arial, sans-serif;}
+
+h1, h2, h3 {color: #222; font-weight: bold;}
+
+h1 {font-size: 28px;}
+
+h2 {font-size: 21px;}
+
+h3 {font-size: 16px;}
+
+ul {list-style: circle inside none;}
+
+ul li {margin: 10px 2px;}
+
+p {font-size: 14px;}
+
+a {color: #0066cc; text-decoration: none; outline: none;}
+
+a:hover {color: red;}
+
+#wrapper {padding: 0px 0px 0px 14px; height: inherit; position: relative;}
+
+.popup_variants {margin: 10px 0px; padding: 7px; width: 400px; border: 1px solid #ddd; position: absolute;}
+
+.popup_variants h3 {margin: 10px 0px;}
+
+#popup_variant_second {left: 500px;}
+
+#popup_variant_third {top: 370px;}
+
+.popup_window_first, .popup_window_second, .popup_window_third {display: none; padding: 24px; border: 1px solid #ddd; background: #fff8dc;}
+
+.popup_window_first {margin-left: -220px; position: fixed; top: 30%; left: 50%;}
+
+.popup_window_second {width: 400px; margin: 17% auto; position: relative;}
+
+.popup_window_third {margin: auto; width: 400px; height: 110px; position: absolute; top: 0; left: 0; bottom: 0; right: 0;}
+
+.popup_close {width: 22px; height: 22px; font-size: 20px; text-align: center; line-height: 22px; cursor: pointer; border: 1px solid red; background: red url('popup_close.png') no-repeat 0 0; position: absolute; right: 0px; top: 0px;}
+
+.popup_content {width: 400px;}
